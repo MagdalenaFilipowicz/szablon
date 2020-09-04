@@ -1,0 +1,19 @@
+.header {
+    background-color: gray;
+}
+
+img {
+    width: 400px;
+}
+
+.kontakt {
+    color: indigo;
+}
+
+ul li {
+    font-size: 24px;
+}
+
+.my_list {
+    list-style: none;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My first website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class="header">Witaj na mojej stronie internetowej</h1>
+        <img src="python.jpg">
+        <h1 class="kontakt">Kontakt</h1>
+        <ul class="my_list">
+            <li><strong>imie:</strong> Python</li>
+            <li><strong>nazwisko:</strong> Python</li>
+        </ul>
+        <ul>
+            <li>email: python@python.py</li>
+            <li>telefon: 685938586</li>
+        </ul>
+        <h3>Wyslij wiadomosc</h3>
+        <form action="{{ url_for('post_message') }}" method="POST">
+            <textarea name="text"></textarea>
+            <input type="submit">
+        </form>
+    </body>
+</html>
+
